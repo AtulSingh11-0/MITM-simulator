@@ -1,3 +1,9 @@
+/**
+ * success-scripts.js
+ * Contains JavaScript code for the success page logic.
+ * Handles user logout and password reset functionality.
+ */
+
 // Check if user is logged in
 const currentUser = sessionStorage.getItem("currentUser");
 if (!currentUser) {

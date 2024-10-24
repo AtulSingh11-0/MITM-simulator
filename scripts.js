@@ -1,3 +1,9 @@
+/**
+ * scripts.js
+ * Contains JavaScript code for the main application logic.
+ * Initializes users in localStorage and handles user login.
+ */
+
 // Initialize users in localStorage if not exists
 if (!localStorage.getItem("users")) {
   const initialUsers = [
